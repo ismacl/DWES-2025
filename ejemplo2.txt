@@ -1,1 +1,1 @@
-Esto es un ejemplo de como utilzar gitignore
+Esto es un ejemplo de como utilzar gitignore.
