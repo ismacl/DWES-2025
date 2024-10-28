@@ -18,7 +18,7 @@
 --
 -- Table structure for table `tComentarios`
 --
-
+use mysitedb;
 DROP TABLE IF EXISTS `tComentarios`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -74,11 +74,11 @@ CREATE TABLE `tPeliculas` (
 LOCK TABLES `tPeliculas` WRITE;
 /*!40000 ALTER TABLE `tPeliculas` DISABLE KEYS */;
 INSERT INTO `tPeliculas` VALUES
-(1,'Star Wars V','https://images.app.goo.gl/c6gbGrk64ywu5xcx5','Irvin Kershner',1980),
-(2,'Cars','https://images.app.goo.gl/poiYSqeJaPLvhVvL8','John Lasseter',2006),
+(1,'Star Wars V','https://pics.filmaffinity.com/La_guerra_de_las_galaxias_Episodio_V_El_imperio_contraataca-701818523-large.jpg','Irvin Kershner',1980),
+(2,'Cars','https://m.media-amazon.com/images/I/71+mhWHnBdL._AC_UF894,1000_QL80_.jpg','John Lasseter',2006),
 (3,'Rocky IV','https://images.app.goo.gl/RmA95cuyZKid85Zx6','Sylvester Stallone',1985),
-(4,'Jungla de cristal','https://images.app.goo.gl/eL8PMVvs9MLpyJeD9','John McTiernan',1988),
-(5,'Logan','https://images.app.goo.gl/MPUy3J58RktWN1H5A','James Mangold',2017);
+(4,'Jungla de cristal','https://i.pinimg.com/736x/d2/d2/52/d2d2524056eb23b0a8ca198b6dc6c4ff.jpg','John McTiernan',1988),
+(5,'Logan','https://www.aceprensa.com/wp-content/uploads/2019/12/263115-0-scaled.jpg','James Mangold',2017);
 /*!40000 ALTER TABLE `tPeliculas` ENABLE KEYS */;
 UNLOCK TABLES;
 
