@@ -5,8 +5,8 @@ from .models import *
 # Register your models here.
 
 class usuariosExistentes(admin.ModelAdmin):
-    list_display = ('first_name', 'tipo')
-    search_fields = ('tipo',)
+    list_display = ('first_name', 'rol')
+    search_fields = ('rol',)
 
 
 class eventosExistentes(admin.ModelAdmin):
