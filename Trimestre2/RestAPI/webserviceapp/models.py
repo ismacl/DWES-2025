@@ -25,7 +25,7 @@ class Teventos(models.Model):
     fecha_hora = models.DateTimeField(default=datetime.now())
     capacidad_maxima = models.CharField(max_length=200)
     imagen_url = models.CharField(max_length=200)
-q
+
     def __str__(self):
         return "[" +self.organizador.first_name + "]" +self.titulo
 
